@@ -81,4 +81,8 @@ public class Author {
 			return false;
 		return true;
 	}
+	@Override
+	public String toString() {
+		return this.id+","+this.getFirstName()+","+this.getLastName();
+	}
 }

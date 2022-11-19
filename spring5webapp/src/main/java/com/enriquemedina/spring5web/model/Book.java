@@ -78,4 +78,9 @@ public class Book {
 			return false;
 		return true;
 	}
+	
+	@Override
+	public String toString() {
+		return this.id+","+this.getTitle();
+	}
 }
